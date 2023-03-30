@@ -56,6 +56,6 @@ function onEscKeyPress(evt) {
 
     if (evt.code === ESC_KEY_CODE) {    
       instance.close();
-       window.removeEventListener('keydown', onEscKeyPress);
+      window.removeEventListener('keydown', onEscKeyPress);
     }
   };
